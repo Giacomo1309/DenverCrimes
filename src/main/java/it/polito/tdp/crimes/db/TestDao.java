@@ -6,8 +6,15 @@ public class TestDao {
 
 	public static void main(String[] args) {
 		EventsDao dao = new EventsDao();
-		for(Event e : dao.listAllEvents())
-			System.out.println(e);
+		int mese = 8 ;
+		//System.out.println(dao.get("murder", mese));
+		
+		// for(Event e : dao.listAllEvents())
+		// System.out.println(e);
+		//
+		
+		
+		
 	}
 
 }
